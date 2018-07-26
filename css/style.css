@@ -2,6 +2,7 @@ html,
  body {
    height: 100%;
    width: 100%;
+
  }
 
  .shadow {
@@ -10,6 +11,8 @@ html,
 
 .proximo{
   margin-top: -5px;
+  color: #D5D5D5;
+  text-shadow: black 0.1em 0.1em 0.5em;
 }
 
 .text-center{
@@ -30,7 +33,13 @@ a:focus a:hover{
 }
 section{
 padding: 100px;
+background-color: #BCBCBC;
 }
+
+.cor-section{
+  background-color: #A3A3A3;
+}
+
 hr.light {
   border-width: 4px;
   max-width: 200px;
@@ -71,6 +80,12 @@ header {
   text-align: center;
   color: white;
 }
+
+/* .fundo {
+  opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+} */
 
 .background-section{
     /* background-image: url('../img/fundo3.jpg'); */
