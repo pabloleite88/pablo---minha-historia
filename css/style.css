@@ -14,9 +14,20 @@ html,
 
 .text-center{
   text-align: center;
+  color: WHITE;
+}
+.btn-green{
   color: white;
+  background-color: #3ebcb2;
+  border-color: #009688;
 }
 
+a:focus a:hover{
+  color: #dfe6e9;
+  text-decoration: underline !important;
+  text-decoration: none !important;
+  background-color: #e84393;
+}
 section{
 padding: 100px;
 }
@@ -27,7 +38,7 @@ hr.light {
 
 section h1.font{
   text-align: center;
-  color: white;
+  color: #dfe6e9;
   text-transform: uppercase;
   font-weight: 700;
 
@@ -38,6 +49,10 @@ section h1.font{
     max-height:400px;
     width: auto;
     height: auto;
+}
+
+.tamb-img{
+
 }
 
 .thumbnail{
@@ -58,8 +73,8 @@ header {
 }
 
 .background-section{
-    background-image: url('../img/fundo3.jpg');
-    background-color: #f19066;
+    /* background-image: url('../img/fundo3.jpg'); */
+    background-color: #white;
 }
 
 header .header-content {
