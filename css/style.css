@@ -5,6 +5,9 @@ html,
 
  }
 
+.footer{
+      height: 30px;
+}
  .shadow {
    text-shadow: black 0.1em 0.1em 0.5em;
 }
