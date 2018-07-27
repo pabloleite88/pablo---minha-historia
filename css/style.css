@@ -23,10 +23,16 @@
 	font-weight: 100;
 
 } */
-navbar-cor{
 
-  background-color: #FFFFFF;
-  opacity:0.10;/* propriedade padrão - Fire fox e Chrome*/
+.navbar-default {
+    background-color: #dfe6e9;
+    border-color: #E7E7E7;
+    font-family:    Garamond;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+font-family: 'Anton', sans-serif !important;
 }
 
 html,
@@ -62,7 +68,7 @@ html,
 }
 
 a:focus a:hover{
-  color: #dfe6e9;
+  color: #white;
   text-decoration: underline !important;
   text-decoration: none !important;
   background-color: #e84393;
@@ -94,10 +100,6 @@ section h1.font{
     max-height:400px;
     width: auto;
     height: auto;
-}
-
-.tamb-img{
-
 }
 
 .thumbnail{
