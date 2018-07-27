@@ -1,3 +1,28 @@
+.navigation{
+
+	color: white;
+	height: 50px;
+  .font-family: 'Exo 2', sans-serif;
+}
+
+.navigation ul{
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+	text-align: right;
+	height: 50px;
+
+}
+
+.navigation li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 100;
+
+}
 html,
  body {
    height: 100%;
@@ -7,9 +32,11 @@ html,
 
 .footer{
       height: 30px;
+      font-size: 14px;
 }
  .shadow {
    text-shadow: black 0.1em 0.1em 0.5em;
+   font-family: 'Exo 2', sans-serif;
 }
 
 .proximo{
