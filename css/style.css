@@ -1,4 +1,4 @@
-.navigation{
+/* .navigation{
 
 	color: white;
 	height: 50px;
@@ -22,7 +22,13 @@
 	font-size: 18px;
 	font-weight: 100;
 
+} */
+navbar-cor{
+
+  background-color: #FFFFFF;
+  opacity:0.10;/* propriedade padrão - Fire fox e Chrome*/
 }
+
 html,
  body {
    height: 100%;

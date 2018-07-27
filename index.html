@@ -19,14 +19,28 @@
   </head>
   <body>
       <header>
-        <div class="navigation">
-            <ul>
-                <li><a class="navigation" href="#">Home</a></li>
-                <li><a class="navigation" href="#">Corridas</a></li>
-                <li><a class="navigation" href="#">Fotos</a></li>
-                <li><a class="navigation" href="#">Videos</a></li>
+        <nav class="navbar navbar-cor navbar-light navbar-default navbar-fixed-top affix-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Pablo Leite</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-cor collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a  href="#corridas">Corridas</a></li>
+                <li><a  href="#fotos">Fotos</a></li>
+                <li><a  href="#videos">Videos</a></li>
               </ul>
-        </div>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
         <div class="header-content">
           <div class="header-content-inner">
             <img class="img-icon" src="img/perfil.jpg" alt="Pablo e Ana na Corrida Colorida 2016">
@@ -37,7 +51,7 @@
           </div>
         </div>
       </header>
-      <section class="background-section">
+      <section id="corridas" class="background-section">
         <div class="container">
           <div class="row">
             <h1 class="text-center shadow">CORRIDAS</h1>
@@ -77,7 +91,7 @@
           </div>
         </div>
       </section>
-      <section class="cor-section">
+      <section id="fotos" class="cor-section">
         <div class="container">
           <div class="row">
               <h1 class="text-center shadow">FOTOS</h1>
@@ -125,7 +139,7 @@
           </div>
           </div>
       </section>
-      <section>
+      <section id="videos">
         <div class="container">
           <div class="row">
               <h1 class="text-center shadow">VIDEOS</h1>
